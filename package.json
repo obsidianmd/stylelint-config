@@ -1,0 +1,41 @@
+{
+    "name": "stylelint-config-obsidianmd",
+    "version": "0.1.0",
+    "description": "Shareable Stylelint config for Obsidian themes",
+    "license": "MIT",
+    "author": "Dynalist Inc.",
+    "homepage": "https://obsidian.md",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/obsidianmd/stylelint-config.git"
+    },
+    "keywords": [
+        "stylelint",
+        "stylelint-config",
+        "obsidian",
+        "obsidianmd"
+    ],
+    "type": "module",
+    "exports": {
+        ".": "./index.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "node --test"
+    },
+    "dependencies": {
+        "stylelint-config-standard": "^40.0.0",
+        "stylelint-no-unsupported-browser-features": "^8.1.1"
+    },
+    "devDependencies": {
+        "stylelint": "^17.0.0"
+    },
+    "peerDependencies": {
+        "stylelint": "^17.0.0"
+    },
+    "engines": {
+        "node": ">= 22"
+    }
+}

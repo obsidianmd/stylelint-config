@@ -1,0 +1,11 @@
+.theme-dark {
+    background-image: url("https://example.com/bg.png");
+    color: red !important;
+    padding: 8px;
+    padding: 16px;
+    all: unset;
+}
+
+.nav-folder:has(.is-collapsed) {
+    display: none;
+}

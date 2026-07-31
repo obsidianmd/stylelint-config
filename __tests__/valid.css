@@ -1,0 +1,77 @@
+.theme-dark {
+    --background-primary: #1e1e1e;
+    --background-secondary: #262626;
+    --text-normal: #dcddde;
+    --text-muted: #999;
+    --accent-h: 254;
+    --accent-s: 80%;
+    --accent-l: 68%;
+}
+
+.theme-light {
+    --background-primary: #fff;
+    --background-secondary: #f5f6f8;
+    --text-normal: #2e3338;
+    --text-muted: #888;
+}
+
+body {
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+}
+
+.workspace-leaf {
+    background-color: var(--background-secondary);
+}
+
+.nav-file-title {
+    color: var(--text-muted);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.nav-file-title:hover {
+    color: var(--text-normal);
+    background-color: rgb(0 0 0 / 10%);
+}
+
+.view-header-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-normal);
+}
+
+.markdown-rendered h1 {
+    font-size: 2em;
+    border-bottom: 1px solid var(--background-secondary);
+}
+
+.status-bar {
+    background-color: transparent;
+    border-top: 1px solid var(--background-secondary);
+    color: currentcolor;
+}
+
+@font-face {
+    font-family: ThemeFont;
+    src: url("data:font/woff2;base64,d09GMgABAAAA") format("woff2");
+    font-display: swap;
+}
+
+@layer base {
+    :root {
+        --custom-radius: 8px;
+    }
+}
+
+@property --gradient-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+@container sidebar (min-width: 300px) {
+    .nav-folder {
+        padding: 8px;
+    }
+}
