@@ -8,6 +8,7 @@ on:
 
 jobs:
     test:
+        name: index.test (Node ${{ matrix.node-version }})
         runs-on: ubuntu-latest
         strategy:
             matrix:
