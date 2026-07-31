@@ -1,7 +1,7 @@
 {
 	"name": "stylelint-config-obsidianmd",
 	"version": "0.1.0",
-	"description": "Stylelint config for Obsidian plugin development",
+	"description": "Stylelint config for Obsidian theme development",
 	"license": "MIT",
 	"author": "Dynalist Inc.",
 	"homepage": "https://obsidian.md",
@@ -13,6 +13,7 @@
 		"stylelint",
 		"stylelint-config",
 		"obsidian",
+		"obsidian-theme",
 		"obsdmd"
 	],
 	"main": "index.js",

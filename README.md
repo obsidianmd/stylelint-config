@@ -1,6 +1,6 @@
 # stylelint-config-obsidianmd
 
-A Stylelint configuration for Obsidian plugin development.
+A Stylelint configuration for Obsidian theme development.
 
 ## Installation
 
