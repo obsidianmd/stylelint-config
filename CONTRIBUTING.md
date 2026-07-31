@@ -5,4 +5,4 @@ You have to agree to the [Contributor License Agreement](https://github.com/obsi
 ### Code standards
 
 - Keep it lightweight. The fewer the dependencies, the better.
-- Your code should be self-explanatory. Add comments only for anything non-obvious.
+- Every rule should include a `severity` and a `message` explaining why it exists.
