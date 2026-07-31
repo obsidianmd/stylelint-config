@@ -1,0 +1,14 @@
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+tab_width = 4
+
+[{*.js,*.jsx}]
+ij_javascript_use_double_quotes = false
+ij_javascript_force_quote_style = true
+ij_javascript_force_semicolon_style = true

@@ -1,0 +1,28 @@
+{
+	"name": "stylelint-config-obsidianmd",
+	"version": "0.1.0",
+	"description": "Stylelint config for Obsidian plugin development",
+	"license": "MIT",
+	"author": "Dynalist Inc.",
+	"homepage": "https://obsidian.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/obsidianmd/stylelint-config.git"
+	},
+	"keywords": [
+		"stylelint",
+		"stylelint-config",
+		"obsidian",
+		"obsdmd"
+	],
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"peerDependencies": {
+		"stylelint": ">=16"
+	},
+	"engines": {
+		"node": ">= 18"
+	}
+}

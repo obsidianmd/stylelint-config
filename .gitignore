@@ -1,0 +1,8 @@
+node_modules
+*.iml
+.idea
+.vscode
+.DS_Store
+
+# Ignore all log files
+*.log
