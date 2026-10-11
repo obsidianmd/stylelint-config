@@ -75,3 +75,13 @@ body {
         padding: 8px;
     }
 }
+
+@media print {
+    .print .callout {
+        break-inside: avoid;
+    }
+
+    .print h2 {
+        break-after: avoid;
+    }
+}
