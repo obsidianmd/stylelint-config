@@ -41,7 +41,7 @@ export default {
             {
                 severity: "warning",
                 browsers: ["electron >= 43"],
-                ignore: ["css-nesting", "css-cascade-layers"],
+                ignore: ["css-nesting", "css-cascade-layers", "multicolumn"],
             },
         ],
         "selector-pseudo-class-disallowed-list": [
